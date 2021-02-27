@@ -9,7 +9,7 @@ The anatomic class relative to the depicted anatomy of digital intraoral (dental
 You can use the code in this repository to train and validate your own classifiers. Please inform us in case you reproduce the results of this experiment with your own dataset.
 
 
-** Please note: **
+**Please note:**
 *Code for this project is currently being migrated to TensorFlow 2 and will be posted shortly.*
 
 Some notable changes from the original article:
