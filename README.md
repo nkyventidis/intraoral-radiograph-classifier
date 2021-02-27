@@ -23,7 +23,7 @@ Some notable changes from the original article:
 Coming soon
 
 ### Guide
-Comming soon
+Coming soon
 
 
 ### Cite as:
