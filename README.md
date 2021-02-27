@@ -15,8 +15,8 @@ You can use the code in this repository to train and validate your own classifie
 Some notable changes from the original article:
 
 - migrated to TensorFlow 2.
-- Sklearn's AUC metric has been replaced with tf.keras AUC metric.
-- Class weights are now calculated with sklearn's "class_weight" function.
+- sklearn's AUC metric has been replaced with tf.keras AUC metric.
+- class weights are now calculated with sklearn's "class_weight" function.
 
 
 ### Setup
