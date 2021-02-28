@@ -20,9 +20,15 @@ Some notable changes from the original article:
 
 
 ### Setup
-We suggest using an Anaconda Python 3.7.1 environment.
+We suggest using an Anaconda Python 3.8.5 environment.
 Our code has been tested with:
-- tensorflow 
+- tensorflow 2.4.0
+- numpy 1.19.2
+- pandas 1.1.3
+- scikit-image 0.17.2
+- scikit-learn 0.23.2
+- bokeh 2.2.3
+- matplotlib 3.3.1
 
 
 ### Guide
@@ -41,7 +47,9 @@ etc.
 The code can handle an arbitrary number of classes. We suggest using the classification described in our paper, or alternatively the one suggested by the JSOMR in the [DICOM standard](https://dicom.nema.org/medical/dicom/2019b/output/pdf/part17.pdf).
 
 Run the following command to commence your experiment:\
+```
 python intraoral_classifier.py IO-classifier
+```
 
 Note that our code can also train a general purpose classifier if provided with alternate input images. For more information refer to the source itself.
 
