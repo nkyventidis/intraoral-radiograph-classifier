@@ -46,7 +46,7 @@ etc.
 
 The code can handle an arbitrary number of classes. We suggest using the classification described in our paper, or alternatively the one suggested by the JSOMR in the [DICOM standard](https://dicom.nema.org/medical/dicom/2019b/output/pdf/part17.pdf).
 
-Run the following command to commence your experiment:\
+Run the following command to commence your own experiment:
 ```
 python intraoral_classifier.py IO-classifier
 ```
