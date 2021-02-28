@@ -20,15 +20,34 @@ Some notable changes from the original article:
 
 
 ### Setup
-Coming soon
+We suggest using an Anaconda Python 3.7.1 environment.
+Our code has been tested with:
+- tensorflow 
+
 
 ### Guide
-Coming soon
+You can train your own intraoral radiograph classifiers by providing your own dataset. All images must be placed inside a root folder and split in 'train', 'validation' and (optionally) 'test' subfolders, as well as subfolders for every class. For example:
 
+root_folder/\
+...train/\
+......LBW/\
+.........a_image_1.jpg\
+.........a_image_2.jpg\
+......11-12/\
+.........b_image_1.jpg\
+.........b_image_2.jpg\
+etc.
+
+The code can handle an arbitrary number of classes. We suggest using the classification described in our paper, or alternatively the one suggested by the JSOMR in the [DICOM standard](https://dicom.nema.org/medical/dicom/2019b/output/pdf/part17.pdf).
+
+Run the following command to commence your experiment:\
+python intraoral_classifier.py IO-classifier
+
+Note that our code can also train a general purpose classifier if provided with alternate input images. For more information refer to the source itself.
 
 ### Cite as:
 
-If you find this article useful in your own research, please cite as (bibtex entry provided below):
+If you find this article/repository useful in your own research, please cite us (bibtex entry provided below):
 
 @article{\
 	title = {Intraoral radiograph anatomical region classification using neural networks},\
