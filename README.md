@@ -1,7 +1,7 @@
 ## Intraoral radiograph anatomical region classification using neural networks.
 
-This repository contains the code used in the following paper [full text link]:\
-[**Kyventidis, N., Angelopoulos, C. Intraoral radiograph anatomical region classification using neural networks. Int J CARS (2021).**](https://rdcu.be/cfNeV) [**DOI:10.1007/s11548-021-02321-4**](https://doi.org/10.1007/s11548-021-02321-4)
+This repository contains the code used in the following paper [**[full text link]**](https://rdcu.be/cfNeV):\
+[**Kyventidis, N., Angelopoulos, C. Intraoral radiograph anatomical region classification using neural networks. Int J CARS (2021).**](https://link.springer.com/article/10.1007/s11548-021-02321-4) [**DOI:10.1007/s11548-021-02321-4**](https://doi.org/10.1007/s11548-021-02321-4)
 
 The anatomic class relative to the depicted anatomy of digital intraoral (dental) radiographs has to be manually preselected during exposure or manually added later. Since at least half a billion intraoral radiographs are produced every year, automating this task could provide substantial benefits. A novel methodology enabling automatic classification by employing neural networks is presented in the paper.
 
