@@ -59,15 +59,18 @@ If you find this article/repository useful in your own research, please cite us 
 
 @article{\
 	title = {Intraoral radiograph anatomical region classification using neural networks},\
+	volume = {16},\
 	issn = {1861-6429},\
 	url = {https://doi.org/10.1007/s11548-021-02321-4}, \
 	doi = {10.1007/s11548-021-02321-4},\
-	abstract = {Dental radiography represents 13\% of all radiological diagnostic imaging. Eliminating the need for manual classification of digital intraoral radiographs could be especially impactful in terms of time savings and metadata quality. However, automating the task can be challenging due to the limited variation and possible overlap of the depicted anatomy. This study attempted to use neural networks to automate the classification of anatomical regions in intraoral radiographs among 22 unique anatomical classes.},\
+	number = {3},\
 	journal = {International Journal of Computer Assisted Radiology and Surgery},\
 	author = {Kyventidis, Nikolaos and Angelopoulos, Christos},\
-	month = feb,\
-	year = {2021}\
+	month = mar,\
+	year = {2021},\
+	pages = {447--455}
 }
+
 
 
 
