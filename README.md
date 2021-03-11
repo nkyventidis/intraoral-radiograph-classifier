@@ -10,7 +10,7 @@ You can use the code in this repository to train and validate your own classifie
 
 
 **Please note:**
-*Code for this project is currently being migrated to TensorFlow 2 and will be posted shortly. Please check the repository regurlarly for updates.*
+*Code for this project is currently being migrated to TensorFlow 2 and will be posted shortly. Please check the repository regularly for updates.*
 
 Some notable changes from the original article:
 
